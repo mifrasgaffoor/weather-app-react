@@ -1,0 +1,41 @@
+.result {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.result__box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10%;
+  background-color: coral;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 5px 6px rgba(0, 0, 0, 0.2), 0 2px 3px rgba(0, 0, 0, 0.24);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.result__box > button {
+  margin-top: 30px;
+  text-transform: inherit !important ;
+  background-color: rgb(255, 255, 255);
+  color: rgb(195, 55, 21);
+}
+
+.result__box > p {
+  color: rgb(36, 22, 22);
+}
+
+.result__box > button:hover {
+  background-color: rgb(195, 55, 21);
+  color: white;
+}
+
+.result__box .name {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}

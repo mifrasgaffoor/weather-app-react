@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaisei+Opti&display=swap");
+
+.inputBox {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background-color: #f8f8f8;
+}
+
+.inputBox__feild {
+  padding: 10%;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 5px 6px rgba(0, 0, 0, 0.2), 0 2px 3px rgba(0, 0, 0, 0.24);
+  padding-top: 0;
+  padding-bottom: 50px;
+  margin: 20px;
+}
+
+.inputBox__feild > h1 {
+  font-family: "Kaisei Opti", serif;
+  margin-top: 10px;
+  color: rgb(195, 55, 21);
+}
+
+.inputBox__feild > img {
+  width: 20%;
+  padding-bottom: 40px;
+  padding-top: 20px;
+}
+
+.inputBox__feild > form > button {
+  margin-top: 30px;
+  text-transform: inherit !important ;
+  background-color: rgb(195, 55, 21);
+  color: white;
+}
+
+.inputBox__feild > form > button:hover {
+  background-color: rgb(195, 55, 21);
+  color: white;
+}
