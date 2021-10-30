@@ -11,7 +11,7 @@ const [icon, setIcon] = useState("")
 
 
 const findWeather= async()=>{
-const apiKey = "8de07c594aea04881291108073311101";
+const apiKey = "8de07c594aea048812911087875748073311101";
 const unit = "metric";
 const url = "https://api.openweathermap.org/data/2.5/weather?q=" + inputs + "&appid=" + apiKey + "&units=" + unit;
 const response = await axios.get(url);
