@@ -8,8 +8,6 @@ const [temp, setTemp] = useState("");
 const [description, setDescription] = useState("");
 const [icon, setIcon] = useState("")
 
-
-
 const findWeather= async()=>{
 const apiKey = "8de07c594aea048812911087875748073311101";
 const unit = "metric";
