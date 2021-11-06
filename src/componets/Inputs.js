@@ -35,5 +35,4 @@ findWeather();
         </div>
     )
 }
-
 export default Inputs
