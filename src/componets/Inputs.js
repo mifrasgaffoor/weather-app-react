@@ -5,7 +5,6 @@ import './Input.css'
 
 const Inputs = ({inputs,setInputs,findWeather}) => {
 
-
 const handleChange =(event)=>{
     setInputs(event.target.value);
     
