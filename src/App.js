@@ -23,7 +23,7 @@ setIcon(imageURL);
 setInputs("")
 }
 
-  return (
+return (
     <div className="app">
     {temp === "" ? 
     (  <Inputs inputs={inputs}   setInputs={setInputs}  findWeather={findWeather}  /> ):
