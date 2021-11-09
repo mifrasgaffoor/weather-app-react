@@ -23,7 +23,6 @@ setIcon(imageURL);
 setInputs("")
 }
 
-
   return (
     <div className="app">
     {temp === "" ? 
